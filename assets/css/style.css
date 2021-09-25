@@ -423,18 +423,18 @@ img {
 
 
 .scroll-top{
-  width: 50px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   position: fixed;
   display: inline-block;
-  bottom: 105%;
-  right: 40px;
+  bottom: 90%;
+  right: 30px;
   font-size: 14px;
   font-weight: 700;
   font-family: 'Nunito Sans', sans-serif;
   z-index: 99;
-  color: #ffffff;
-  background: #3e252d;
+  /* color: #ffffff; */
+  /* background: #3e252d; */
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
@@ -458,6 +458,58 @@ img {
 .scroll-top.open {
   bottom: 40px;
 }
+
+/* whatsapp btn */
+/* 
+.scroll-to-top1 {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: none;
+	position: fixed;
+	bottom: 60px;
+	left: 30px;
+	z-index: 990;
+	text-align: center;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	display: none;
+}
+
+@media (max-width: 480px) {
+	.scroll-to-top1 {
+		bottom: 60px;
+		left:10px;
+		width: 40px;
+		height: 40px;
+	}
+}
+
+
+.scroll-to-top1 i {
+	font-size: 14px;
+	line-height: 50px;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+@media (max-width: 480px) {
+	.scroll-to-top1 i {
+		font-size: 14px;
+		line-height: 40px;
+	}
+}
+
+.scroll-to-top1:hover {
+	background: none;
+}
+
+.scroll-to-top1:hover i {
+	color: #fff;
+} */
 
 .sec-title{
   position: relative;
