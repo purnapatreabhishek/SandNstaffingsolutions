@@ -427,13 +427,13 @@ img {
   height: 60px;
   position: fixed;
   display: inline-block;
-  bottom: 90%;
+  bottom: 105%;
   right: 30px;
   font-size: 14px;
   font-weight: 700;
   font-family: 'Nunito Sans', sans-serif;
   z-index: 99;
-  /* color: #ffffff; */
+  color: #ffffff;
   /* background: #3e252d; */
   border-radius: 5px;
   text-align: center;
@@ -452,7 +452,7 @@ img {
 }
 
 .scroll-top:hover{
-  
+
 }
 
 .scroll-top.open {
